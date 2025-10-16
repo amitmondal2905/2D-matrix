@@ -15,17 +15,19 @@ const Navbar = () => {
         </Typography>
 
         <Button
+          variant="contained"
+          color="success"
           component={RouterLink}
           to="/"
-          color="inherit"
           sx={{ color: "black", marginRight: 2 }}
         >
           Home
         </Button>
         <Button
+          variant="contained"
+          color="success"
           component={RouterLink}
           to="/calculator"
-          color="inherit"
           sx={{ color: "black" }}
         >
           Calculator
